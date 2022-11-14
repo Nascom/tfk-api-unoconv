@@ -22,4 +22,4 @@ ENV TIMEOUT_SOCKET 140000
 EXPOSE 3000
 
 # Startup
-ENTRYPOINT /usr/bin/unoconv --listener --server=0.0.0.0 --port=2002 & node standalone.js
+ENTRYPOINT node standalone.js
